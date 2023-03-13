@@ -1,0 +1,35 @@
+        #ugraloFelirat {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            padding: 30px;
+            font-size: 16px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50px;
+        }
+
+        /*Számáló elem formázása*/
+        #szamlalo {
+            color: white;
+            position: fixed;
+            top: 0px;
+            left: 50%;
+            width: 50px;
+            transform: translate(-25px);
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.9);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        #snake {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: green;
+
+        }
